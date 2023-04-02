@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStructure.Core", "src\BasicStructure.Core\BasicStructure.Core.csproj", "{CBD6DCD6-6FE7-4E98-81C3-757D3A03DADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStructure.Core", "src\BasicStructure.Core\BasicStructure.Core.csproj", "{CBD6DCD6-6FE7-4E98-81C3-757D3A03DADD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C35C5BFE-616F-4365-814F-BFB2675DE4B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStructure.Core.Tests", "tests\BasicStructure.Core.Tests\BasicStructure.Core.Tests.csproj", "{8589DD75-04A6-4C1F-911A-F6C2A82E73DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStructure.Core.Tests", "tests\BasicStructure.Core.Tests\BasicStructure.Core.Tests.csproj", "{8589DD75-04A6-4C1F-911A-F6C2A82E73DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStrcuture.Api", "src\BasicStrcuture.Api\BasicStrcuture.Api.csproj", "{5B745D5B-3773-4EAD-B7CA-642606ECE7AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStrcuture.Api", "src\BasicStrcuture.Api\BasicStrcuture.Api.csproj", "{5B745D5B-3773-4EAD-B7CA-642606ECE7AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStructure.Api.Tests", "tests\BasicStructure.Api.Tests\BasicStructure.Api.Tests.csproj", "{CD98703F-617D-4102-A2A5-6933B4FC7587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStructure.Api.Tests", "tests\BasicStructure.Api.Tests\BasicStructure.Api.Tests.csproj", "{CD98703F-617D-4102-A2A5-6933B4FC7587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStructure.Infrastructure.Database", "src\BasicStructure.Infrastructure.Database\BasicStructure.Infrastructure.Database.csproj", "{FA172C64-59FC-4FDB-9AAA-EB150C5226C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStructure.Infrastructure.Files", "src\BasicStructure.Infrastructure.Files\BasicStructure.Infrastructure.Files.csproj", "{69B0B3E5-6CD0-41BF-B345-EBE8FD2E2016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{CD98703F-617D-4102-A2A5-6933B4FC7587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD98703F-617D-4102-A2A5-6933B4FC7587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD98703F-617D-4102-A2A5-6933B4FC7587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA172C64-59FC-4FDB-9AAA-EB150C5226C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA172C64-59FC-4FDB-9AAA-EB150C5226C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA172C64-59FC-4FDB-9AAA-EB150C5226C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA172C64-59FC-4FDB-9AAA-EB150C5226C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B0B3E5-6CD0-41BF-B345-EBE8FD2E2016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B0B3E5-6CD0-41BF-B345-EBE8FD2E2016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B0B3E5-6CD0-41BF-B345-EBE8FD2E2016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B0B3E5-6CD0-41BF-B345-EBE8FD2E2016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
